@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ABOUT</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <h1>ABOUT US</h1>
+    </head>
+
+   <body>
+      <!--TAJUK HEADER-->
+      <div class="navbar">
+      <a href="homepage.html" class="logo"><img src="TENGOKULOGO.png"></a>
+      <ul>
+        <li><a href="feedback.html">feedback</a></li>
+		    <li><a href="service.html">customer service</a></li>
+        <li><a href="location.html">our location</a></li>
+      </ul>
+      </div>
+
+      <!--BACKGROUND-->
+     <style>
+        body { background-image:url("backgroundhome4.jpg"); background-repeat:repeat; background-size: cover; }
+      </style>
+
+      <!--AYAT AYAT-->
+      <div class="content">
+        <h2>OUR CREWS !!</h2>
+      </div><br>
+
+      <!--SLIDE GAMBAR-->
+      <div class="container">
+
+      <!-- Slider main container -->
+      <div class="swiper">
+
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="2.png" ></div>
+      <div class="swiper-slide"><img src="3.png" ></div>
+      <div class="swiper-slide"><img src="4.png" ></div>
+      <div class="swiper-slide"><img src="5.png" ></div><br>
+
+      
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="2.png" ></div>
+      <div class="swiper-slide"><img src="3.png" ></div>
+      <div class="swiper-slide"><img src="4.png" ></div>
+      <div class="swiper-slide"><img src="5.png" ></div><br>
+      
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+      <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay:{
+            delay:3000,
+            disableOnInteraction: false,
+        },
+
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+        el: '.swiper-pagination',
+        clickable : true,
+        },
+
+        // Navigation arrows
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+        }   );
+        </script>
+
+          <!--footer-->
+          <div class="footer-container">
+            <div class="footer">
+              <div class="footer-heading footer-1">
+              <h4>ABOUT US</h4>
+              <b href="#">KENALI KAMI</b>
+              <b href="#">MEET OUR TEAMS</b>
+              <b href="#">SEJARAH KAMI</b>
+              <b href="#">MEDIA SOSIAL TEAM KAMI</b>
+              <b href="#">TERMS OF SERVICE</b>
+            </div>
+            <div class="footer-heading footer-2">
+              <h4>CONTACT US</h4>
+              <b href="#">JOB</b>
+              <b href="#">SUPPORT</b>
+              <b href="#">CONTACT</b>
+              <b href="#">SPONSORSHIP</b>
+              <b href="#">BLOG</b>
+            </div>
+            <div class="footer-heading footer-3">
+              <h4>SOCIAL MEDIA</h4>
+              <b href="#">INSTAGRAM</b>
+              <b href="#">FACEBOOK</b>
+              <b href="https://www.youtube.com/@kudasuku">YOUTUBE</b>
+              <b href="#">TWITTER</b>
+              <b href="#">TIKTOK</b>
+            </div>
+            <div class="footer-email-form">
+              <h5>JOIN US BY BECOME OUR TEAM</h5>
+              <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS" id="footer-email">
+              <input type="submit" value="SIGN UP" id="footer-email-btn">
+            </div>
+          </div>
+          </div>
+          
+        </body>
+      </html>
